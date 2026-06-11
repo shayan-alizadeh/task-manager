@@ -30,6 +30,7 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
  ┃ ┗ 📜 db.js           # MySQL connection pool/setup
  ┣ 📜 app.js            # Express application setup and entry point
  ┗ 📜 .env              # Environment variables (Ignored in Git)
+````
 
 ## ⚙️ Setup and Installation
 
