@@ -38,7 +38,7 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
 ```bash
    git clone https://github.com/[YourUsername]/task-manager.git
    cd task-manager
-
+```
 
 2. **Install dependencies:**
 
