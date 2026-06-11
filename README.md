@@ -45,7 +45,7 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
 
 ```bash
    npm install
-
+```
 3. **Database Setup:Create a MySQL database and run the following query to create the tasks table:**
 
 ```bash
@@ -55,7 +55,7 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
        completed BOOLEAN DEFAULT false,
        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
    );
-
+```
 
 4. **Environment Variables:Create a .env file in the root directory and add your database credentials:**
 
@@ -65,13 +65,13 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
    DB_PASS=your_password
    DB_NAME=task_manager_db
    PORT=3000
-
+```
 5. **Start the server:**
 
 ```bash
    npm start
    # or node app.js
-
+```
 ---
 
 ## 📡 API Documentation
