@@ -98,6 +98,7 @@ A RESTful API built with **Node.js**, **Express.js**, and **MySQL** for managing
         "title": "Buy groceries",
         "completed": false
     }
+```
 *   **Note:** The title must be at least 3 characters long and unique.
 
 ### 4. Update a Task
@@ -112,4 +113,4 @@ json
 ### 5. Delete a Task
 *   **Endpoint:** `DELETE /tasks/:id`
 *   **Description:** Deletes the specified task and returns a success message.
-````
+
