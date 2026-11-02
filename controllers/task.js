@@ -5,7 +5,7 @@ export default class TaskController {
         let page = 1,
             limit = 4,
             finished = undefined,
-            search = "4";
+            search = "";
 
         if (req.query.page > 0) {
             page = parseInt(req.query.page);
