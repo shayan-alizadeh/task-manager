@@ -16,7 +16,7 @@ export default class TaskController {
         if (req.query.search) {
             search = req.query.search;
         }
-        if (req.query.finished === "true" || req.query.finished === "false") {
+        if (req.query.finished === "tru" || req.query.finished === "false") {
             finished = req.query.finished === "true" ? true : false;
         }
 
