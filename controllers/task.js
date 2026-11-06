@@ -45,7 +45,7 @@ export default class TaskController {
                 res.json({
                     success: true,
                     body: task,
-                    message: "The task fetched successfull",
+                    message: "The task fetched successfully",
                 });
             } else {
                 res.status(404).json({
