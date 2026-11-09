@@ -4,7 +4,7 @@ export default class Task {
     static async getTasks(page, limit, finished, search) {
         let conditions = `title LIKE '%${search}%'`;
         if (finished !== undefined) {
-            conditions += ` AND completed = ${finished}`;
+            conditions += `AND completed = ${finished}`;
         }
 
         const start = (page - 1) * limit;
